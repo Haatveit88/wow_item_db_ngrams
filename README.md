@@ -7,7 +7,7 @@ A meaningless collection containing ngrams of various lengths, for all the item 
 Perhaps better explain with an example.
 
 # Example
-Say we want to break up the string `morning` into trigrams (3-grams). To do this, we create an imaginary sliding window that can fit exactly 3 characters inside of it, and we start at the left-most end of the string. We record what we can see in the window, then we slide the window 1 character to the right. Repeat until the right side of the window shows the right-most character of the string.
+Say we want to break up the string `morning` into trigrams (3-grams). To do this, we create an imaginary sliding window that can fit exactly 3 characters inside of it, and we start at the left-most end of the string. We record what we can see in the window, then we slide the window **1 character** to the right. Repeat until the right side of the window shows the right-most character of the string. Note that this does mean all n-grams where `n > 1`  will overlap to neighboring n-grams!
 
 1. [**mor**]ning
 2. m[**orn**]ing
