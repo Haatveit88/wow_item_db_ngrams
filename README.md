@@ -27,6 +27,9 @@ ing
 
 You may realize that any string of length `L` contains `L - (n-1)` n-grams, where `n` is the gram length. This means any string of length `L` contains exactly `L - (2)` trigrams, or `L - (1)` bigrams, or `L - (3)` tetragrams, etc.
 
+# \_underscores\_
+Please note that all n-grams in the datasets within this repository were generated using underscore padding at the \_beginning and end\_ of each item name, as this is part of the preprocessing I needed for my fuzzy searching algorithm.
+
 # Why?
 
 I ended up generating this data while working on an AddOn for World of Warcraft that lets the user perform fuzzy searches among all items purported by the game servers to exist.
