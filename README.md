@@ -31,5 +31,7 @@ You may realize that any string of length `L` contains `L - (n-1)` n-grams, wher
 Please note that all n-grams in the datasets within this repository were generated using underscore padding at the \_beginning and end\_ of each item name, as this is part of the preprocessing I needed for my fuzzy searching algorithm.
 
 # Why?
+I ended up generating this data while working on an AddOn for World of Warcraft that lets the user perform fuzzy searches among all items purported by the game servers to exist. I thought some of the data was interesting in and of itself, and so I'm uploading it here.
 
-I ended up generating this data while working on an AddOn for World of Warcraft that lets the user perform fuzzy searches among all items purported by the game servers to exist.
+# Licence
+Feel free to use any of this data for any purpose, for any reason. Feel free to credit me, too, however this is also optional!
